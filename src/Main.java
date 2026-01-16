@@ -41,9 +41,9 @@ public class Main extends JFrame {
     }
 
     public void initObjekte() {
-        AutoListe.add(new Auto("Audi", "A5", 45000, 190, false));
-        AutoListe.add(new Auto("Tesla", "Model 3", 40000, 283, true));
-        AutoListe.add(new Auto("Porsche", "911 Turbo S", 285000, 650, false));
+        AutoListe.add(new Auto("Audi", "A5", 190, 45000, false));
+        AutoListe.add(new Auto("Tesla", "Model 3", 283, 40000, true));
+        AutoListe.add(new Auto("Porsche", "911 Turbo S", 650, 285000, false));
     }
 
     private void initGUI() {
